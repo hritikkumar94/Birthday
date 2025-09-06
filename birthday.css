@@ -81,3 +81,18 @@ p {
     border-color: #30a9de;
 }
 
+.card-photo {
+    width: 116px;
+    height: 152px;
+    object-fit: cover;
+    border-radius: 13px;
+    box-shadow: 0 4px 16px #9997;
+    border: 3px solid #d72660;
+    transition: transform 0.3s;
+}
+
+.card-photo:hover {
+    transform: scale(1.07);
+    border-color: #30a9de;
+}
+
