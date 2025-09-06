@@ -81,8 +81,8 @@ p {
     border-color: #30a9de;
 }
 .card-photo {
-    width: 500px;
-    height: 400px;
+    width: 1000px;
+    height: 4000px;
     object-fit: cover;
     border-radius: 13px;
     box-shadow: 0 4px 16px #9997;
@@ -93,3 +93,4 @@ p {
     transform: scale(1.07);
     border-color: #30a9de;
 }
+
