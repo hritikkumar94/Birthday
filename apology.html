@@ -6,27 +6,30 @@
   <link rel="stylesheet" href="birthday.css">
 </head>
 <body>
+  body{
+    margin:0;
+    padding:0;
+  }
   <style>
     #image1{
-      display: inline;
-      margin: 10px;
-      width: 800px;
-      height: 1000px;
+     
+      width: 1000px;
+      height: 1800px;
       transform: rotate(-90deg);
     }
     #image2{
      
-      width: 800px;
-      height: 1000px;
+      width: 1000px;
+      height: 1800px;
       transform: rotate(-90deg);
     }
      #image3{
       
-      width: 800px;
+      width: 1800px;
       height: 1000px;
       transform: rotate(-360deg);
     }
-     .photo-row{
+    .photo-row{
       display: flex;
       flex-direction: column;
       gap: 0px;
@@ -47,14 +50,17 @@
     <h1 id="apology-heading"></h1>
     <p id="apology-paragraph"></p>
   </div>
-  <table>
-    <tr>
-      <th><img src="WhatsApp Image 2025-09-05 at 20.52.40_4a2167bb.jpg" id="image1" alt="photo1"></th>
-      <th><img src="WhatsApp Image 2025-09-05 at 20.52.36_fc08824d.jpg"id="image2" alt="photo2"></th>
-      <th><img src="WhatsApp Image 2025-09-05 at 20.52.39_946ee7e9.jpg" id="image3" alt="photo3"></th>
+  
+    <div class="photo-row">
+    <!-- <tr> -->
+      <img src="WhatsApp Image 2025-09-05 at 20.52.40_4a2167bb.jpg"style="margin-right:210px;" id="image1" alt="photo1">
+      <img src="WhatsApp Image 2025-09-05 at 20.52.36_fc08824d.jpg"style="margin-right:130px;"id="image2" alt="photo2">
+      <img src="WhatsApp Image 2025-09-05 at 20.52.39_946ee7e9.jpg" id="image3" alt="photo3">
+    
 
-  </tr>
-  </table>
+ 
+  </div>
+ 
 
  <style>
  
@@ -67,5 +73,6 @@
   </script>
 </body>
 </html>
+
 
 
